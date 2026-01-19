@@ -69,3 +69,25 @@ typeof undefined;    // "undefined"
 typeof null;         // "object" 
 typeof {};           // "object"
 typeof function(){}; // "function"
+// Funtionsssssssss
+
+function greet(name) {
+  return "Hello " + name + "! How are you?";
+}
+console.log(greet("Sagar"));
+function add(a, b) {
+  return a + b;
+}
+console.log("Addition:", add(5, 10));
+function isEven(num) {
+  return num % 2 === 0;
+}
+console.log("Is 4 even?", isEven(4));
+function factorial(n) {
+  if (n === 0) {
+    return 1;
+  } else {
+    return n * factorial(n - 1);
+  }
+}
+console.log("Factorial of 5:", factorial(5));
