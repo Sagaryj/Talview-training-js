@@ -91,3 +91,36 @@ function factorial(n) {
   }
 }
 console.log("Factorial of 5:", factorial(5));
+
+// Arrayssssssssssssss
+const arr = [10, 20, 30, 40];
+console.log("numbers:", arr);
+console.log("First number:", arr[0]);
+arr.push(50);
+console.log("After push:", arr);
+const mixed = [
+  1,
+  "text",
+  true,
+  null,
+  { name: "Sagar" },
+  function () { return "Hi"; }
+];
+console.log("mixed array:", mixed);
+console.log("Function in mixed array:", mixed[5]());
+const a = [1, 2, 3];
+const b = a;
+
+b.push(4);
+
+console.log(a); // [1, 2, 3, 4]
+arr.pop();
+console.log("After pop:", arr);
+arr.push(5);
+console.log("After pop and push:", arr);
+arr.shift();
+console.log("After shift:", arr);
+arr.unshift(023); // octal coz starting with 0 n is calculated has 2*8 + 3 = 19 if it has 23 then 23 directly gets added to the array
+console.log("After unshift:", arr);
+arr.unshift(15); // in this case array gets 15 at the starting 
+console.log("After unshift 15:", arr);
