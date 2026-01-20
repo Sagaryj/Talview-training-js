@@ -25,9 +25,9 @@ const nums = [10, 20, 30];
 for (const num of nums) {
   console.log(num);
 }
-const user = { name: "Sagar", age: 25 };
+const user1= { name: "Sagar", age: 25 };
 
-for (const key in user) {
-  console.log(key, user[key]);
+for (const key in user1) {
+  console.log(key, user1[key]);
 }
 
