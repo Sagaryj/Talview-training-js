@@ -42,7 +42,7 @@ Compared by value*/
 7 symbol    */  
 let string ="Hello, World!";
 console.log("string:", string[0]);
-let x;
+let x = 12
 console.log(x); // undefined
 let z=null;
 console.log(z); 
@@ -120,7 +120,7 @@ arr.push(5);
 console.log("After pop and push:", arr);
 arr.shift();
 console.log("After shift:", arr);
-arr.unshift(023); // octal coz starting with 0 n is calculated has 2*8 + 3 = 19 if it has 23 then 23 directly gets added to the array
+arr.unshift(0o23); // octal coz starting with 0 n is calculated has 2*8 + 3 = 19 if it has 23 then 23 directly gets added to the array
 console.log("After unshift:", arr);
 arr.unshift(15); // in this case array gets 15 at the starting 
 console.log("After unshift 15:", arr);
