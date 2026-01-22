@@ -1,0 +1,47 @@
+h1{
+    color: rgb(1, 1, 6);
+    text-decoration: solid;
+    font-size: 40px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    animation: forwards;
+    
+}
+h2{
+    color: rgb(48, 6, 6);
+    font-size: 30px;
+    font-family: 'Times New Roman', serif;
+    text-align: left;
+    text-align: center;
+}
+h3{
+    color: rgb(242, 16, 16);
+    font-size: 20px;
+    font-family: 'Courier New', monospace;
+    text-align: right;
+    text-align: center;
+}
+p{
+    color: black;
+    font-size: 16px;
+    font-family: Verdana, sans-serif;
+    text-align:center;
+}
+body{
+    background-color: #4b899d;
+    margin: 20px;
+    padding: 20px;
+}
+button{
+    background-color:black;
+    color: white;
+    padding: 10px 20px;
+    border:burlywood;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(13, 5, 5);
+    color: yellow;
+    
+}
