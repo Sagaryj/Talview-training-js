@@ -4,8 +4,7 @@ h1{
     font-size: 40px;
     font-family: Arial, sans-serif;
     text-align: center;
-    animation: forwards;
-    
+    animation: forwards;  
 }
 h2{
     color: rgb(48, 6, 6);
@@ -26,11 +25,16 @@ p{
     font-size: 16px;
     font-family: Verdana, sans-serif;
     text-align:center;
+    border: 2px solid yellow;
+    padding: 10px;
+    margin: 10px;
+
 }
 body{
     background-color: #4b899d;
     margin: 20px;
-    padding: 20px;
+    padding: 20px;  
+
 }
 button{
     background-color:black;
@@ -42,6 +46,6 @@ button{
 }
 button:hover{
     background-color: rgb(13, 5, 5);
-    color: yellow;
-    
+    color: rgb(0, 17, 255);
+    border: 2px solid rgb(255, 0, 251);    
 }
