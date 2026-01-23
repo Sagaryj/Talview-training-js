@@ -49,3 +49,10 @@ button:hover{
     color: rgb(0, 17, 255);
     border: 2px solid rgb(255, 0, 251);    
 }
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(143, 124, 124);
+    margin: 20px;
+    animation: moveBox 2s infinite alternate;
+}
