@@ -56,3 +56,11 @@ button:hover{
     margin: 20px;
     animation: moveBox 2s infinite alternate;
 }
+img{
+    width: 300px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border: 5px solid #000;
+    border-radius: 10px;
+}

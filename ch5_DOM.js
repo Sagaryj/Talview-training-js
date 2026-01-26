@@ -37,12 +37,22 @@ heading2.addEventListener("click", function() {
     alert("You clicked the heading!");
 });
 
-let button=document.querySelector("button");
-button.addEventListener("click", function() {
-    alert("Button was clicked!");
-});
+
+
 
 function showMessage() {
     alert("Hello! This is a message from the showMessage function.");
 }           
 console.log("DOM manipulation script executed.");
+let btn= document.createElement("button");
+btn.innerText="Click Me Too!";
+btn.style.padding="10px";
+btn.style.margin="10px";
+btn.style.backgroundColor="orange";
+btn.style.border="none";
+btn.style.borderRadius="5px";
+btn.style.cursor="pointer";
+let divv=document.createElement("div");
+divv.style.textAlign="center";
+divv.style.marginTop="20px";
+divv.append(btn);
