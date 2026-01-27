@@ -18,3 +18,22 @@ function getdata(dataid) {
         ,2000); }
 let varss= getdata(5);
 console.log(varss);
+ let promise = new Promise((resolve, reject) => { 
+    let success =false; 
+    if (success) {
+        resolve("Promise resolved successfully!");
+    } else {
+        reject("error");
+    }
+});
+
+promise.then((message) => {
+    console.log(message);
+}).catch((error) => {
+    console.log(error);
+});
+
+async function fetchData() {
+    console.log("Fetching data...");
+    
+}
